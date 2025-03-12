@@ -1,1 +1,3 @@
-# SimplePlatformer
+Event-Driven System Implementation 
+
+I made a 2d platformer with a health and “score” event, if the player is touched by the slime then they lose health and the ui is updated to reflect how much they lost, similarly there are gem pickups on the ground for the player to collect, each adds 1 score to the gem counter in the ui. There is a lever on the second, that when it is toggled with “E” a platform is effected and moves to help the player make the next jump. All of these systems immerse the player in the game since some will try to not take any damage and complete it without dying, or some will want to collect every gem possible. Seeing a health bar dynamically change when the player takes damage and the score being increased when you gather gems gives the players instant feedback on what's happening in the game.
